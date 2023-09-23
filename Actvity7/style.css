@@ -1,10 +1,10 @@
 *{box-sizing: border-box;}
 .title{
     text-align: center;
-    color:mediumvioletred;
+    color:darkturquoise;
 }
 .subtitle{
-    background-color:pink;
+    background-color:darkcyan;
     padding: 1em;
 }
 .img_container{
@@ -26,19 +26,87 @@ img{
 .image3{
     filter: sepia(100%);
 }
-.Info{
+.Info1{
     position: absolute;
-    top: 60%;
-    bottom: 20%;
+    top: 50%;
+    bottom: 25%;
     left: 10%;
     right: 10%;
     background-color: rgba(50, 50, 50, 0.8);
+    border: 10px ridge white;
 }
 .title1{
-    font-size: 1.5em;
-    color: white;
+    font-size: 2.5em;
+    color: palevioletred;
+    padding-left: 1em;
 }
 .p1{
-    font-size: 1.3em;
+    font-size: 1.8em;
+    color: palevioletred;
+    padding: 1em;
+}
+.Info2{
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 15%;
+    right: 15%;
+    background-color: rgba(50, 50, 50, 0.8);
+    box-shadow: 10px 10px 9px white
+}
+.title2{
+    font-size: 3em;
+    color: lightgreen;
+    padding-left:1em;;
+}
+.p2{
+    font-size: 1.8em;
+    color: lightgreen;
+    padding: 1em;
+}
+.p3{
+    font-size: 1.8em;
+    color: lightgreen;
+    padding: 1em;
+    background-color: darkgreen;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+.title3{
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    left: 45%;
+    right: 35%;
+    font-size: 3em;
+    color: white;
+}
+.p4{
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.6em;
+    color: white;
+}
+.p5{
+    padding: 0.5em 1em;
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.6em;
+    color: white;
+}
+.p6{
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 10%;
+    right: 55%;
+    margin-right: 10%;
+    overflow: hidden;
+    font-size: 1.6em;
     color: white;
 }
