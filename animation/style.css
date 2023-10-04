@@ -64,12 +64,12 @@ img{
     flex-wrap: wrap;
 }
 .card1{
-    width: 30%;
+    width: 22%;
     box-shadow: 1px 1px 5px skyblue;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    margin: 5em;
+    margin: 1em;
 }
 .cardMsg1{
     position: absolute;
@@ -82,19 +82,19 @@ img{
 }
 .card1:hover{
     box-shadow: none;
-    transform: scale(1.01);
+    transform: scale(1.06);
 }
 .card1:hover .cardMsg1{
     color: azure;
     text-shadow: 1px 1px 3px aquamarine;
 }
 .card2{
-    width: 30%;
+    width: 22%;
     box-shadow: 1px 1px 5px skyblue;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    margin: 5em;
+    margin: 1em;
 }
 .cardMsg2{
     position: absolute;
@@ -107,19 +107,19 @@ img{
 }
 .card2:hover{
     box-shadow: none;
-    transform: scale(1.01);
+    transform: scale(1.06);
 }
 .card2:hover .cardMsg2{
     color: azure;
     text-shadow: 1px 1px 3px aquamarine;
 }
 .card3{
-    width: 30%;
+    width: 22%;
     box-shadow:1px 1px 5px skyblue;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    margin: 5em;
+    margin: 1em;
 }
 .cardMsg3{
     position: absolute;
@@ -132,19 +132,19 @@ img{
 }
 .card3:hover{
     box-shadow: none;
-    transform: scale(1.01);
+    transform: scale(1.06);
 }
 .card3:hover .cardMsg1{
     color: azure;
     text-shadow: 1px 1px 3px aquamarine;
 }
 .card4{
-    width: 30%;
+    width: 22%;
     box-shadow: 1px 1px 5px skyblue;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    margin: 5em;
+    margin: 1em;
 }
 .cardMsg4{
     position: absolute;
