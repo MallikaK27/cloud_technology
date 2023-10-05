@@ -1,0 +1,12 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    padding: 3em;
+    background-color: red;
+    color: white;
+    font-size: 3em;
+    font-family:'Trebuchet MS';
+}
+.img1{
+    width:75%;
+}
