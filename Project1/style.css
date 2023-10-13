@@ -5,9 +5,16 @@ html{
 .title{
     text-align: center;
     padding: 2em;
-    background-color: red;
-    color: white;
+    background-color: white;
+    border: solid 5px gray;
+    color: red;
     font-size: 3em;
+    transition: ease-in-out 3s;
+    font-family: Marker Felt, fantasy;
+}
+.title:hover{
+    color: darkred;
+    font-family: Apple Chancery, cursive ;
 }
 .navBar{
     background-color: red;
@@ -20,7 +27,11 @@ html{
     padding: 1em;
     text-decoration: none;
     font-size: 3em;
-    margin-left: 8%;
+    margin-left: 3%;
+    font-family: Marker Felt, fantasy;
+}
+h1{    
+    font-family: Marker Felt, fantasy;
 }
 img{
     width: 100%;
@@ -30,5 +41,86 @@ img{
     display: flex;
     flex-wrap:wrap;
 }
-.img1{width: 45%; margin: 1% 2%;}
-.txt{width: 45%; background-color: aqua; margin: 1% 2%;}
+.img1{
+    width: 45%; margin: 1% 2%;
+}
+.txt1{width: 45%; background-color: skyblue;box-shadow: 5px 5px 10px darkslateblue; margin: 1% 2%;}
+.txt2{width: 45%; background-color: lightsalmon;box-shadow: 5px 5px 10px brown; margin: 1% 2%;}
+.txt3{width: 45%; background-color: firebrick;box-shadow: 5px 5px 10px chocolate; margin: 1% 2%;}
+.txt4{width: 45%; background-color: cornflowerblue;box-shadow: 5px 5px 10px darkolivegreen; margin: 1% 2%;}
+.p1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+}
+.p2{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+    padding-top: 1em;
+}
+.a1{
+    text-decoration: none;
+    color: navy;
+}
+.p3{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.15em ;
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 3%;
+}
+.p4{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.15em ;
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 3%;
+    padding-top: 1.5em;
+}
+.a2{
+    text-decoration: none;
+    color: darkslategrey;
+}
+.p5{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: gainsboro;
+    margin: 1%;
+}
+.p6{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: gainsboro;
+    margin: 1%;
+    padding-top: 1.3em;
+}
+.a3{
+    text-decoration: none;
+    color: gainsboro;
+}
+.p7{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: white;
+    margin: 3%;
+}
+.p8{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em ;
+    font-weight: bold;
+    color: white;
+    margin: 3%;
+    padding-top: 1.3em;
+}
+.a4{
+    text-decoration: none;
+    color: white;
+}
