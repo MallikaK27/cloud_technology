@@ -9,17 +9,18 @@ html{
     border: solid 5px gray;
     color: red;
     font-size: 3em;
-    transition: ease-in-out 3s;
+    transition: ease-in-out 1s;
     font-family: Marker Felt, fantasy;
 }
 .title:hover{
     color: darkred;
-    font-family: Apple Chancery, cursive ;
+    font-family: sans-serif;
 }
 .navBar{
     background-color: red;
     display: flex;
     flex-wrap: wrap;
+    margin: 5% auto;
 }
 .navBar a{
     color: white;
@@ -29,6 +30,18 @@ html{
     font-size: 3em;
     margin-left: 3%;
     font-family: Marker Felt, fantasy;
+}
+.con{
+    padding: 1em;
+}
+.img_container{
+    width: 90%;
+    margin: 2% auto;
+    position: relative;
+}
+.im{
+    width: 100%;
+    display: block;
 }
 h1{    
     font-family: Marker Felt, fantasy;
@@ -123,4 +136,110 @@ img{
 .a4{
     text-decoration: none;
     color: white;
+}
+/*------Tokyo.html------*/
+.title1{
+    text-align: center;
+    padding: 2em;
+    box-shadow: 10px 10px 15px cyan;
+    color: gold;
+    background-color: darkcyan;
+    font-size: 3em;
+    font-family: Marker Felt, fantasy;
+    transition: all .5s linear;
+}
+.title1:hover{
+    color: orange;
+    text-shadow: 3px 3px 6px yellow;
+    font-family: cursive;
+    font-style: oblique
+}
+.para1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.3em ;
+    font-weight: bold;
+    color: white;
+    padding: 1.2em;
+    margin-top: 5%;
+    border: ridge 1em teal;
+    background-color: black;
+}
+.title2{
+    color: black;
+    font-size: 2.5em;
+    font-family: Marker Felt, fantasy;
+}
+.container2{
+    display: flex;
+    flex-wrap:wrap;
+}
+.image1{
+    width: 46%; margin: 1% 2%;
+}
+.text1{width: 45%; background-color: skyblue;box-shadow: 5px 5px 10px deepskyblue; margin: 1% 2%;}
+.text2{width: 45%; background-color: lightgray;box-shadow: 5px 5px 10px darkgoldenrod; margin: 1% 2%;}
+.para2{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkslategray;
+    margin: 3%;
+}
+.para3{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+}
+.para4{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.1em ;
+    font-weight: bold;
+    color: navy;
+    margin: 3%;
+    padding-top: 1.3em;
+}
+.a5{
+    text-decoration: none;
+    color: navy;
+}
+/*------Kokyo.html------*/
+.title4{
+    text-align: center;
+    padding: 2em;
+    box-shadow: 10px 10px 15px palevioletred;
+    color: lightpink;
+    background-color:indianred;
+    font-size: 3em;
+    font-family: Marker Felt, fantasy;
+    transition: all .5s linear;
+}
+.title4:hover{
+    color: mediumvioletred;
+    text-shadow: 3px 3px 6px pink;
+    font-family: American Typewriter, serif;
+    font-style: oblique
+}
+.para5{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.3em ;
+    font-weight: bold;
+    color: white;
+    padding: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: ridge 1em lightgreen;
+    background-color: darkolivegreen;
+}
+.para6{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.3em ;
+    font-weight: bold;
+    color: darkgoldenrod;
+    padding: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: ridge 1em orange;
+    background-color: gold;
 }
