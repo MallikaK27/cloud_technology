@@ -8,7 +8,7 @@ html{
     background-color: white;
     border: solid 5px gray;
     color: red;
-    font-size: 3em;
+    font-size: 5em;
     transition: ease-in-out 1s;
     font-family: Marker Felt, fantasy;
 }
@@ -28,11 +28,11 @@ html{
     display: inline-block;
     padding: 1em;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 5em;
     margin-left: 3%;
     font-family: Marker Felt, fantasy;
 }
-.con{
+.container1{
     padding: 1em;
 }
 .img_container{
@@ -64,7 +64,7 @@ img{
 .txt4{width: 45%; background-color: cornflowerblue;box-shadow: 5px 5px 10px darkolivegreen; margin: 1% 2%;}
 .p1{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: navy;
     margin: 3%;
@@ -72,7 +72,7 @@ img{
 }
 .p2{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: navy;
     margin: 3%;
@@ -84,14 +84,14 @@ img{
 }
 .p3{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: darkslategrey;
     margin: 3%;
 }
 .p4{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: darkslategrey;
     margin: 3%;
@@ -103,7 +103,7 @@ img{
 }
 .p5{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: gainsboro;
     margin: 3%;
@@ -111,7 +111,7 @@ img{
 }
 .p6{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: gainsboro;
     margin: 3%;
@@ -123,7 +123,7 @@ img{
 }
 .p7{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: white;
     margin: 3%;
@@ -131,7 +131,7 @@ img{
 }
 .p8{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: white;
     margin: 3%;
@@ -160,11 +160,11 @@ img{
 }
 .para1{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.3em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: white;
     padding: 1.2em;
-    margin-top: 5%;
+    margin: 5%;
     border: ridge 1em teal;
     background-color: black;
 }
@@ -184,21 +184,21 @@ img{
 .text2{width: 45%; background-color: lightgray;box-shadow: 5px 5px 10px darkgoldenrod; margin: 1% 2%;}
 .para2{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     color: darkslategray;
-    margin: 3%;
+    margin: 5%;
 }
 .para3{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: bold;
     color: navy;
     margin: 3%;
 }
 .para4{
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 1.1em ;
+    font-size: 1.5em ;
     font-weight: bold;
     color: navy;
     margin: 3%;
