@@ -141,6 +141,14 @@ img{
     text-decoration: none;
     color: white;
 }
+.f1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 1em;
+    font-size: 1.3em;
+    margin: 3%;
+}
 /*------Tokyo.html------*/
 .title1{
     text-align: center;
