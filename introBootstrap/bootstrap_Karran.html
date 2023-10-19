@@ -20,6 +20,74 @@
         <img src="Butterfly.jpg" alt="image of butterfly" width="28%" class="rounded-circle m-3">
         <img src="Butterfly.jpg" alt="image of butterfly" width="28%" class="img-thumbnail m-3">
     </figure>
+
+    <h2 class="bg-warning text-primary text-center p-3">Basic List Groups</h2>
+    <h3>Food Shopping</h3>
+    <ul class="list-group m-3">
+      <li class="list-group-item">Apple</li>
+      <li class="list-group-item">Milk</li>
+      <li class="list-group-item active">Cereal</li>
+    </ul>
+
+    <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+    <div class="dropdown m-4">
+      <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community College</button>
+      <ul class="dropdown-menu">
+        <li class="bg-info"><h5 class="dropdown-header">Borough of Queens</h5></li>
+        <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+        <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>
+
+        <li class="bg-info"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+        <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+      </ul>
+    </div>
+
+    <h2 class="bg-warning text-primary text-center p-3">Group Dropdown Menu</h2>
+    <div class="btn-group m-3">
+      <button type="button" class="btn-danger btn">Home</button>
+      <button type="button" class="btn-danger btn dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community College</button>
+      <button type="button" class="btn-danger btn">Bootstrap Images</button>
+      <ul class="dropdown-menu">
+        <li class="bg-info"><h5 class="dropdown-header">Borough of Queens</h5></li>
+        <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+        <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">La Guardia</a></li>
+
+        <li class="bg-info"><h5 class="dropdown-header">Borough of Manhattan</h5></li>
+        <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a></li>
+      </ul>
+    </div>
+
+    <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+    <div class="btn-group m-3">
+      <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#butterfly">Info about butterflies</button>
+      <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#ladybug">Info about ladybug</button>
+      <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#dolphins">Info about dolphins</button>
+      <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#jellyfish">Info about jellyfish</button>
+      </div>
+      
+      <div id="butterfly" class="collapse">
+        <p class="p-3">Butterflies are insects that have large, often brightly coloured wings, and a conspicuous, fluttering flight. The group comprises the superfamilies Hedyloidea and Papilionoidea. The oldest butterfly fossils have been dated to the Paleocene, about 56 million years ago, though they may have originated earlier.</p>
+          <img src="Butterfly.jpg" alt="image of butterfly" width="50%" class="mx-auto d-block rounded-circle">
+          <p class="blockquote-footer m-4">Photo by MK</p>
+      </div>
+      
+      <div id="ladybug" class="collapse">
+        <p class="p-3">Lady beetles, ladybugs, or ladybird beetles are among the most visible and best known beneficial predatory insects. Over 450 species are found in North America. Some are native to the United States and some have been introduced from other countries.</p>
+          <img src="Ladybug.webp" alt="image of butterfly" width="50%" class="mx-auto d-block rounded-circle">
+          <p class="blockquote-footer m-4">Photo by MK</p>
+      </div>
+      
+      <div id="dolphins" class="collapse">
+        <p class="p-3">An aquatic mammal within the infraorder Cetacea. Dolphin species belong to the families Delphinidae, Platanistidae, Iniidae, Pontoporiidae, and possibly extinct Lipotidae. There are 40 extant species named as dolphins.</p>
+          <img src="Dolphins.webp" alt="image of butterfly" width="50%" class="mx-auto d-block rounded-circle">
+          <p class="blockquote-footer m-4">Photo by MK</p>
+      </div>
+      
+      <div id="jellyfish" class="collapse">
+        <p class="p-3">Jellyfish and sea jellies are the common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa, which is a major part of the phylum Cnidaria.</p>
+          <img src="Jellyfish.jpeg" alt="image of butterfly" width="50%" class="mx-auto d-block rounded-circle">
+          <p class="blockquote-footer m-4">Photo by MK</p>
+      </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
