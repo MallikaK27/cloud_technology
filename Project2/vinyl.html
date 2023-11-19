@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="bg-dark p-4 text-center text-light" id="#album">Albums</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button"  data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+              <a class="nav-link" href="project2.html">Home</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="vinyl.html">Albums</a>
+             </li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-center">
+            <a class="text-reset me-3" href="cart.html">
+              <i class="fas fa-shopping-cart bg-light"><img src="Images/bag.svg"></i>
+            </a>
+        </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+        </form>
+       </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/Trilogy2.png" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">Trilogy</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$33.00</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal2" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal2" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal2Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/Trilogy2.png"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">Trilogy</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$33.00</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                   </div>
+                </div>
+              </section>
+            </div>
+          </section>
+  
+  
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/KissLand2.png" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">Kissland</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$37.99</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal3" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal3" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal3Label">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/KissLand2.png"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">Kissland</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$37.99</h2>
+                       </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                   </div>
+                </div>
+              </section>
+            </div>
+          </section>
+  
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/Beauty Behind the Madness2.jpg" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">Beauty Behind the Madness</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$39.98</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal4" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal4" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal4Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/Beauty Behind the Madness2.jpg"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">Beauty Behind the Madness</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$39.98</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                   </div>
+                </div>
+              </section>
+            </div>
+          </section>
+  
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/Starboy2.png" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">Starboy</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$34.99</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal5" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal5" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal5Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/Starboy2.png"  width="45%" class="rounded mx-auto d-block">
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">Starboy</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$34.99</h2>
+                        </div>
+                      </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                  </div>
+              </div>
+              </section>
+            </div>
+          </section>
+  
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/MyDearMelancholy.jpg" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">My Dear Melancholy</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$36.99</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal6" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal6" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal6Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/MyDearMelancholy.jpg"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">My Daer Melancholy</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$36.99</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                  </div>
+              </div>
+              </section>
+            </div>
+          </section>
+  
+          <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/AfterHours2.png" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">After Hours</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$36.60</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal7" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal7" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal7Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/AfterHours2.png"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">After Hours</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$36.60</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                  </div>
+              </div>
+              </section>
+            </div>
+          </section>
+  
+        <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/Dawn_FM2.png" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">Dawn FM</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$35.97</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal8" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal8" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal8Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/Dawn_FM2.png"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">Dawn FM</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$35.97</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                  </div>
+              </div>
+              </section>
+            </div>
+        </section>
+
+        <section class="card col-lg-2 col-md-5 col-sm-10 m-4">
+            <div class="card-body">
+              <img src="Images/Highlights.jpg" class="card-img img-fluid" >
+            </div>
+            <div>
+              <h2 class="card-title text-center">The Highlights</h2>
+              <p class="card-subtitle text-center">The Weeknd</p>
+              <h2 class="card-title text-center">$40.41</h2>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-danger m-3" data-bs-target="#modal9" data-bs-toggle="modal">Add to Cart</button>
+              <section id="modal9" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal9Label">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                      <header class="modal-header bg-danger">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </header>
+                      <main class="modal-body row">
+                        <div class="col-sm-11 col-xl-6">
+                          <img src="Images/Highlights.jpg"  width="45%" class="rounded mx-auto d-block">
+                        </div>
+                        <div class="col-sm-11 col-xl-6">
+                          <h2 class="card-title text-center">The Highlights</h2>
+                          <p class="card-subtitle text-center">The Weeknd</p>
+                          <h2 class="card-title text-center">$40.41</h2>
+                        </div>
+                      </main>
+                      <footer class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Add to cart</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continue Shopping</button>
+                      </footer>
+                  </div>
+              </div>
+              </section>
+            </div>
+          </section>
+  
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
