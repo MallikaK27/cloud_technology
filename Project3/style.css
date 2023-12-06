@@ -1,4 +1,35 @@
-.title{
-    color: darkcyan;
+.title1{
     text-align: center;
+    padding: 2em;
+    box-shadow: 10px 10px 15px cyan;
+    color: gold;
+    background-color: darkcyan;
+    font-size: 3em;
+    font-family: Marker Felt, fantasy;
+    transition: all .5s linear;
+}
+.title1:hover{
+    color: orange;
+    text-shadow: 3px 3px 6px yellow;
+    font-family: cursive;
+    font-style: oblique
+}
+.nav-link{
+    font-size: 1.5em;
+}
+.title2{
+    text-align: center;
+    padding: 3em;
+    font-size: 3em;
+    font-family: Marker Felt, fantasy;
+    text-shadow: 4px 4px 8px turquoise;
+}
+.para{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.5em ;
+    font-weight: bold;
+    color: white;
+    margin: 5%;
+    border: ridge 1em teal;
+    background-color: black;
 }
