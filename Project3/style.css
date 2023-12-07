@@ -12,14 +12,14 @@
     color: orange;
     text-shadow: 3px 3px 6px yellow;
     font-family: cursive;
-    font-style: oblique
+    font-style: oblique;
 }
 .nav-link{
     font-size: 1.5em;
 }
 .title2{
     text-align: center;
-    padding: 3em;
+    padding: 2em;
     font-size: 3em;
     font-family: Marker Felt, fantasy;
     text-shadow: 4px 4px 8px turquoise;
@@ -32,4 +32,11 @@
     margin: 5%;
     border: ridge 1em teal;
     background-color: black;
+}
+.title3{
+    text-align: center;
+    padding: 2em;
+    font-size: 3em;
+    font-family: Marker Felt, fantasy;
+    text-shadow: 4px 4px 8px turquoise;
 }
