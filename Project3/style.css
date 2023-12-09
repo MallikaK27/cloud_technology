@@ -11,11 +11,12 @@
 .title1:hover{
     color: orange;
     text-shadow: 3px 3px 6px yellow;
-    font-family: cursive;
+    font-family:Impact, fantasy;
     font-style: oblique;
 }
 .nav-link{
     font-size: 1.5em;
+    color: white;
 }
 .title2{
     text-align: center;
@@ -24,7 +25,7 @@
     font-family: Marker Felt, fantasy;
     text-shadow: 4px 4px 8px turquoise;
 }
-.para{
+.para1{
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 1.5em ;
     font-weight: bold;
@@ -39,6 +40,7 @@
     font-size: 3em;
     font-family: Marker Felt, fantasy;
     text-shadow: 4px 4px 8px turquoise;
+
 }
 .title4{
     text-align: center;
@@ -47,3 +49,13 @@
     font-family: Marker Felt, fantasy;
     text-shadow: 4px 4px 8px turquoise;
 }
+.title5{
+    color: white;
+    padding: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+.para2{
+    font-size: 0.5em ;
+}
+
